@@ -1,3 +1,29 @@
-p {
-	color: red;
+body {
+	background-color: burlywood;
+	position: relative;
 }
+
+.title {
+	text-align: center;
+}
+
+section {
+	padding-left: 25px;
+}
+
+.sec1, .sec2, .sec3 {
+	border: 5px solid rgb(158, 100, 67);
+	background-color: cornsilk;
+}
+
+.sec1 > img {
+	position
+}
+
+.sec3 > ul {
+	margin: 10px;
+	padding-right: 5px;
+	border-style: dotted;
+	border-width: thick;
+}
+
