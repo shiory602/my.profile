@@ -1,4 +1,5 @@
 body {
+	width: 100%;
 	background-color: burlywood;
 	color: rgba(94, 34, 6, 0.836);
 	position: relative;
@@ -19,29 +20,46 @@ body {
 
 .disc {
 	position: absolute;
-	top: 20px;
+	top: 50px;
 }
 
-section {
-	padding: 10px 25px;
-	margin: 36px;
+.sec {
+	display: block;
+	margin: 0 auto;
+	width: 60%;
+	padding: 20px 25px;
 	border: 5px solid rgb(158, 100, 67);
 	background-color: cornsilk;
 }
 
-.sec1 {
-	position: fixed;
-	top: 100px;
-	left: 50%;
+.discription {
+	zoom: 1;
 }
 
-.sec2 {
-	
+.discription:after {
+	content: "";
+	display: block;
+	clear: both;
 }
 
-.sec1 span {
+.inner-discription {
+	float: left;
+	margin-right: 36px;
+}
+
+.inner-discription h3 {
+	float: right;
+}
+
+span {
 	font-style: oblique;
 	font-size: 14px;
+}
+
+.discription a > img {
+	margin-right: 10px;
+	width: 28px;
+	height: 28px;
 }
 
 table {
