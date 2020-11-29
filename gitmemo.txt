@@ -1,0 +1,5 @@
+< How to upload into github >
+1. git add .
+2. git status   (check if it's green)
+3. git commit -m "added basic html structure"
+4. git push -u origin master
